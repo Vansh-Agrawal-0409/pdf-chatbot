@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pypdf
+langchain
+transformers
+faiss-cpu
+openai
+python-multipart
+pdfminer.six
