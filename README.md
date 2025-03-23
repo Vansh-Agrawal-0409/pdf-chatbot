@@ -17,21 +17,22 @@ A PDF Chatbot allows users to upload a PDF document and then ask questions about
 - **Node.js & npm** (for the frontend)
 - **Git** (optional, for cloning the repository)
 
-pdf-chatbot/
-├── backend/
-│   ├── main.py          # Backend FastAPI application
-│   ├── .env             # Environment variables (e.g., HUGGINGFACEHUB_API_TOKEN)
-|   ├── uploads          # PDFs uploaded will be stored here.
-│   └── requirements.txt # Python dependencies
-└── frontend/
-    ├── public/
-    │   └── index.html   # HTML file for the React app
-    ├── src/
-    │   ├── App.js       # React UI code
-    │   ├── App.css      # React UI styling
-    │   └── index.js     # React entry point
-    ├── package.json     # Node package configuration
-    └── package-lock.json
+### File Structure
+    pdf-chatbot/
+    ├── backend/
+    │   ├── main.py          # Backend FastAPI application
+    │   ├── .env             # Environment variables (e.g., HUGGINGFACEHUB_API_TOKEN)
+    |   ├── uploads          # PDFs uploaded will be stored here.
+    │   └── requirements.txt # Python dependencies
+    └── frontend/
+        ├── public/
+        │   └── index.html   # HTML file for the React app
+        ├── src/
+        │   ├── App.js       # React UI code
+        │   ├── App.css      # React UI styling
+        │   └── index.js     # React entry point
+        ├── package.json     # Node package configuration
+        └── package-lock.json
 
 ### Backend Setup
 
