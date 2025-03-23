@@ -43,71 +43,36 @@ A PDF Chatbot allows users to upload a PDF document and then ask questions about
    cd pdf-chatbot/backend
 
 
-Create and Activate a Virtual Environment:
+### Create and Activate a Virtual Environment:
+    python -m venv venv
 
-bash
-Copy
-Edit
-python -m venv venv
-On Windows (Command Prompt):
+    
+### On Windows (Command Prompt):
+    venv\Scripts\activate
 
-cmd
-Copy
-Edit
-venv\Scripts\activate
-On Windows (PowerShell):
+### On Windows (PowerShell):
+    .\venv\Scripts\Activate.ps1
+    
+### On macOS/Linux:
+    source venv/bin/activate
+    
+### Install Dependencies:
+    pip install -r requirements.txt
+    
+### Configure Environment Variables:
 
-powershell
-Copy
-Edit
-.\venv\Scripts\Activate.ps1
-On macOS/Linux:
-
-bash
-Copy
-Edit
-source venv/bin/activate
-Install Dependencies:
-
-bash
-Copy
-Edit
-pip install fastapi uvicorn python-dotenv transformers langchain huggingface_hub PyPDF2 pdfminer.six sentence-transformers faiss-cpu
-Configure Environment Variables:
-
-Create a .env file in the backend folder with the following (replace with your actual Hugging Face API token):
-
-env
-Copy
-Edit
-HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_token_here
-Run the Backend Server:
-
-bash
-Copy
-Edit
-uvicorn main:app --reload
+## Create a .env file in the backend folder with the following (replace with your actual Hugging Face API token):
+    HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_token_here
+    uvicorn main:app --reload
 The backend will run at http://localhost:8000.
 
-Frontend Setup
-Navigate to the Frontend Folder:
-
-bash
-Copy
-Edit
-cd ../frontend
-Install Dependencies:
-
-bash
-Copy
-Edit
-npm install
-Run the Frontend:
-
-bash
-Copy
-Edit
-npm start
+## Frontend Setup
+### Navigate to the Frontend Folder:
+    cd ../frontend
+### Install Dependencies:
+    npm install
+### Run the Frontend:
+    npm start
 The frontend will be available at http://localhost:3000.
 
 How It Works
