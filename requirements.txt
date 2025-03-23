@@ -7,3 +7,7 @@ faiss-cpu
 openai
 python-multipart
 pdfminer.six
+python-dotenv 
+huggingface_hub 
+PyPDF2  
+sentence-transformers 
