@@ -33,7 +33,6 @@ pdf-chatbot/
     ├── package.json     # Node package configuration
     └── package-lock.json
 
-
 ### Backend Setup
 
 1. **Clone the Repository:**
