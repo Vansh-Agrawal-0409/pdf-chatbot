@@ -92,3 +92,6 @@ The retrieved context is fed into a QA chain that uses a Hugging Face text-to-te
 
 Agent Functionality:
 This combination of retrieval and generation acts as an “agent” that leverages both the uploaded document’s context and the language model's reasoning abilities to provide a comprehensive answer.
+
+
+Note: I have not used very advanced models in this project, considering limitations like token constraints, hardware availability, and performance efficiency. However, you can integrate more advanced models based on your requirements to achieve better accuracy and responses.
